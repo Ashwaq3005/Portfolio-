@@ -9,24 +9,49 @@ body {
 header {
   background-color: #333;
   color: white;
-  padding: 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
 section {
+  max-width: 800px;
+  margin: 20px auto;
   padding: 20px;
-  margin: 10px;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007acc;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 ul {
   list-style-type: square;
+  padding-left: 20px;
 }
 
 footer {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   background-color: #222;
   color: white;
+  margin-top: 40px;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
